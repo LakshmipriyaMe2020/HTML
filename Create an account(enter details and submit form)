@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p style="color:red;">Create an account in <strong>MoviesFree.com</strong>.</p>
+<form action="/action_page.php">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password">Password: </label>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <label for="reenterpassword">Reenter Password: </label>
+  <input type="password" id="rpassword" name="rpassword"><br><br>
+   <label for="email">Enter your Email: </label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <label for="age">Age: </label>
+  <input type="number" id="age" name="age"><br><br>
+  Gender: 
+    <input type="radio" name="Gender" value="Male">Male 
+    <input type="radio" name="Gender" value="Female">Female 
+    <input type="radio" name="Gender" value="Others">Others 
+    <br>
+    <br>
+  <label for="preferences">Preferences: </label><br>
+  <input type="checkbox" id="kidsmovies" name="kmovies">
+  <label for="option1"><i>Kids Movies</i></label><br>
+  <input type="checkbox" id="Fantacymovies" name="fmovies">
+  <label for="option2"><i>Fantacy Movies</i></label><br>
+  <input type="checkbox" id="Comedymovies" name="cmovies">
+  <label for="option3"><i>Comedy Movies</i></label><br>
+  <input type="checkbox" id="Familymovies" name="Fmovies">
+  <label for="option3"><i>Family Movies</i></label><br>
+  
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
