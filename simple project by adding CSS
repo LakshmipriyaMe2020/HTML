@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:grey">
+<p class="Heading">Create an account in 
+<span style=color:turquoise>MoviesFree.com</span>.</p>
+
+<style>
+.Heading {
+  font-size: 120%;;
+  color: white;
+}
+#alert {
+background-color: lightblue;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  }
+ .review {
+ font-size: 90%;
+ background-color:orange;
+  color: pink;
+  font:verdana;
+  border: 1px solid black;
+  padding: 10px;
+  margin:5px;
+  text-align:left;
+  }
+  .myDiv {
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+  button{
+  margin:auto;
+  display:block;
+  font-family:helvetica;
+  color:;
+}
+</style>
+<img src="https://img.youtube.com/vi/8A9mJYprMl4/0.jpg" alt="Telugu movies" width="50" height="60" style="float:right">
+
+<img src="https://gurgaonmoms.com/wp-content/uploads/2017/05/movies.jpg" alt="English movies" width="60" height="60" style="vertical-align:middle">
+
+<form action="/action_page.php">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username"><br><br>
+  <label for="password">Password: </label>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <label for="reenterpassword">Reenter Password: </label>
+  <input type="password" id="rpassword" name="rpassword"><br><br>
+   <label for="email">Enter your Email: </label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <label for="age">Age: </label>
+  <input type="number" id="age" name="age"><br><br>
+  <img src="https://hips.hearstapps.com/bpc.h-cdn.co/assets/17/39/480x480/square-1506632976-best-kids-movie-youtube-good-dinosaur.jpg" alt="English movies" width="60" height="60" style="vertical-align:middle">
+  Gender: 
+    <input type="radio" name="Gender" value="Male">Male 
+    <input type="radio" name="Gender" value="Female">Female 
+    <input type="radio" name="Gender" value="Others">Others 
+    <br>
+    <br>
+  <label for="preferences">Preferences: </label><br>
+  <input type="checkbox" id="kidsmovies" name="kmovies">
+  <label for="option1"><i>Kids Movies</i></label><br>
+  <input type="checkbox" id="Fantacymovies" name="fmovies">
+  <label for="option2"><i>Fantacy Movies</i></label><br>
+  <input type="checkbox" id="Comedymovies" name="cmovies">
+  <label for="option3"><i>Comedy Movies</i></label><br>
+  <input type="checkbox" id="Familymovies" name="Fmovies">
+  <label for="option3"><i>Family Movies</i></label><br>
+  <br>
+  <p id="alert">please go to Company <a href="#r4">rules and policies section and customer reviews </a>before creating an account for full details</p>
+  <div>
+  <button>Submit</button>
+  </div>
+  
+ 
+<div class="review">
+
+<h2>Customer reviews:</h2>
+
+<p><strong style=color:red>Melissa:</strong>One of the best site i have seen before.. New movies are added every weekend </p>
+
+<p><strong style=color:red>Jack:</strong>I love this site..No loading time required..all kids movies are awesome.  </p>
+</div >
+<div class="myDiv" id="r4">
+  <h4>First you have to take 7 day free trail by giving payment details.You can watch all kinds of movies in trail period. </h4>
+  <p>Need to cancel before 24 hours of completing free trail.</p>
+  <p>It automatically activates once the free trail validity completed .</p>
+</div
+
+</form>
+
+</body>
+</html>
